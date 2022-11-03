@@ -13,6 +13,8 @@
 		21A98E58291364200052369A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A98E56291364200052369A /* Main.storyboard */; };
 		21A98E5A291364200052369A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A98E59291364200052369A /* Assets.xcassets */; };
 		21A98E5D291364200052369A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A98E5B291364200052369A /* LaunchScreen.storyboard */; };
+		21A98E65291367240052369A /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A98E64291367240052369A /* detailViewController.swift */; };
+		21A98E67291368660052369A /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21A98E66291368660052369A /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		21A98E59291364200052369A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A98E5C291364200052369A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A98E5E291364200052369A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A98E64291367240052369A /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		21A98E66291368660052369A /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 				21A98E52291364200052369A /* SceneDelegate.swift */,
 				21A98E54291364200052369A /* ViewController.swift */,
 				21A98E56291364200052369A /* Main.storyboard */,
+				21A98E64291367240052369A /* detailViewController.swift */,
 				21A98E59291364200052369A /* Assets.xcassets */,
+				21A98E66291368660052369A /* Property List.plist */,
 				21A98E5B291364200052369A /* LaunchScreen.storyboard */,
 				21A98E5E291364200052369A /* Info.plist */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				21A98E5D291364200052369A /* LaunchScreen.storyboard in Resources */,
 				21A98E5A291364200052369A /* Assets.xcassets in Resources */,
+				21A98E67291368660052369A /* Property List.plist in Resources */,
 				21A98E58291364200052369A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				21A98E55291364200052369A /* ViewController.swift in Sources */,
 				21A98E51291364200052369A /* AppDelegate.swift in Sources */,
 				21A98E53291364200052369A /* SceneDelegate.swift in Sources */,
+				21A98E65291367240052369A /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
